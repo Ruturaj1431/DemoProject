@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-02-15T00:26:18 IST" name="Suite" finished-at="2022-02-15T00:27:32 IST" duration-ms="73747">
+    <groups>
+    </groups>
+    <test started-at="2022-02-15T00:26:18 IST" name="ChromeTest" finished-at="2022-02-15T00:27:05 IST" duration-ms="46557">
+      <class name="test.VerifyPlayersSearchButton">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67]" started-at="2022-02-15T00:26:18 IST" name="launchTheBrowser" finished-at="2022-02-15T00:26:25 IST" duration-ms="6107" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67]" started-at="2022-02-15T00:26:25 IST" name="createPOMObject" finished-at="2022-02-15T00:26:25 IST" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="toGoOnMobileSite()[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67]" started-at="2022-02-15T00:26:25 IST" name="toGoOnMobileSite" finished-at="2022-02-15T00:26:51 IST" duration-ms="26732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGoOnMobileSite -->
+        <test-method signature="toVerifyPlayerSearchButton()[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67]" started-at="2022-02-15T00:26:51 IST" name="toVerifyPlayerSearchButton" finished-at="2022-02-15T00:27:05 IST" duration-ms="13137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyPlayerSearchButton -->
+        <test-method is-config="true" signature="goBackOnMobileSitePage(org.testng.ITestResult)[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67]" started-at="2022-02-15T00:27:05 IST" name="goBackOnMobileSitePage" finished-at="2022-02-15T00:27:05 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyPlayerSearchButton status=SUCCESS method=VerifyPlayersSearchButton.toVerifyPlayerSearchButton()[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackOnMobileSitePage -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67]" started-at="2022-02-15T00:27:05 IST" name="clearPOMObject" finished-at="2022-02-15T00:27:05 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:test.VerifyPlayersSearchButton@67a20f67]" started-at="2022-02-15T00:27:05 IST" name="closeTheBrowser" finished-at="2022-02-15T00:27:05 IST" duration-ms="466" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- test.VerifyPlayersSearchButton -->
+    </test> <!-- ChromeTest -->
+    <test started-at="2022-02-15T00:27:05 IST" name="OperaTest" finished-at="2022-02-15T00:27:32 IST" duration-ms="27146">
+      <class name="test.VerifyPlayersSearchButton">
+        <test-method is-config="true" signature="launchTheBrowser(java.lang.String)[pri:0, instance:test.VerifyPlayersSearchButton@7714e963]" started-at="2022-02-15T00:27:05 IST" name="launchTheBrowser" finished-at="2022-02-15T00:27:15 IST" duration-ms="10447" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Opera]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchTheBrowser -->
+        <test-method is-config="true" signature="createPOMObject()[pri:0, instance:test.VerifyPlayersSearchButton@7714e963]" started-at="2022-02-15T00:27:15 IST" name="createPOMObject" finished-at="2022-02-15T00:27:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createPOMObject -->
+        <test-method is-config="true" signature="toGoOnMobileSite()[pri:0, instance:test.VerifyPlayersSearchButton@7714e963]" started-at="2022-02-15T00:27:15 IST" name="toGoOnMobileSite" finished-at="2022-02-15T00:27:24 IST" duration-ms="8343" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toGoOnMobileSite -->
+        <test-method signature="toVerifyPlayerSearchButton()[pri:0, instance:test.VerifyPlayersSearchButton@7714e963]" started-at="2022-02-15T00:27:24 IST" name="toVerifyPlayerSearchButton" finished-at="2022-02-15T00:27:32 IST" duration-ms="7987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- toVerifyPlayerSearchButton -->
+        <test-method is-config="true" signature="goBackOnMobileSitePage(org.testng.ITestResult)[pri:0, instance:test.VerifyPlayersSearchButton@7714e963]" started-at="2022-02-15T00:27:32 IST" name="goBackOnMobileSitePage" finished-at="2022-02-15T00:27:32 IST" duration-ms="1" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=toVerifyPlayerSearchButton status=SUCCESS method=VerifyPlayersSearchButton.toVerifyPlayerSearchButton()[pri:0, instance:test.VerifyPlayersSearchButton@7714e963] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- goBackOnMobileSitePage -->
+        <test-method is-config="true" signature="clearPOMObject()[pri:0, instance:test.VerifyPlayersSearchButton@7714e963]" started-at="2022-02-15T00:27:32 IST" name="clearPOMObject" finished-at="2022-02-15T00:27:32 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clearPOMObject -->
+        <test-method is-config="true" signature="closeTheBrowser()[pri:0, instance:test.VerifyPlayersSearchButton@7714e963]" started-at="2022-02-15T00:27:32 IST" name="closeTheBrowser" finished-at="2022-02-15T00:27:32 IST" duration-ms="358" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeTheBrowser -->
+      </class> <!-- test.VerifyPlayersSearchButton -->
+    </test> <!-- OperaTest -->
+  </suite> <!-- Suite -->
+</testng-results>
